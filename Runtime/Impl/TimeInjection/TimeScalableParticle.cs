@@ -34,7 +34,7 @@ namespace ChronoLayer.Impl
         {
             if (m_particle)
             {
-                m_particle.Simulate(time.DeltaTime, m_withChildren);
+                m_particle.Simulate(time.DeltaTime, m_withChildren, false);
             }
         }
     }
