@@ -1,0 +1,11 @@
+{
+    "name": "com.double-slash-tt.chronolayer",
+    "displayName": "ChronoLayer",
+    "version": "0.0.1",
+    "unity": "2018.4",
+    "description": "Unity Layered TimeScale",
+    "author": {
+        "name": "double-slash-tt",
+        "email": "double.slash.thunder@gmail.com"
+    }
+}
