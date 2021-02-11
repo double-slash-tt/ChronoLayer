@@ -20,6 +20,13 @@ namespace ChronoLayer.Impl
         //=========================================
         // Property
         //=========================================
+
+        public float InitialScale
+        {
+            get => m_initialScale;
+            set => m_initialScale = value;
+        }
+
         public override float LocalScale
         {
             get => m_localScale;
