@@ -7,7 +7,8 @@ namespace ChronoLayer.Impl
     /// <summary>
     /// 子要素となるTimeScale
     /// </summary>
-    public class ChildTimeScaleAsset : TimeScaleAsset
+    [CreateAssetMenu(menuName = MenuName.TIME_SOURCE + nameof(ChildTimeScaleAsset))]
+    public sealed class ChildTimeScaleAsset : TimeScaleAsset
     {
         //=========================================
         // Field

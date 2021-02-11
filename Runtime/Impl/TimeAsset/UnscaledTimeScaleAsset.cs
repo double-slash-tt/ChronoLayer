@@ -6,6 +6,7 @@ namespace ChronoLayer.Impl
     /// <summary>
     /// UnscaledTimeで参照するためのもの
     /// </summary>
+    [CreateAssetMenu(menuName = MenuName.TIME_SOURCE + nameof(UnscaledTimeScaleAsset))]
     public sealed class UnscaledTimeScaleAsset : TimeScaleAsset
     {
         //======================================

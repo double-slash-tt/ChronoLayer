@@ -6,6 +6,7 @@ namespace ChronoLayer.Impl
     /// <summary>
     /// デフォルトのTimeScaleを取得するもの
     /// </summary>
+    [CreateAssetMenu(menuName = MenuName.TIME_SOURCE + nameof(OriginTimeScaleAsset))]
     public sealed class OriginTimeScaleAsset : TimeScaleAsset
     {
         //======================================
