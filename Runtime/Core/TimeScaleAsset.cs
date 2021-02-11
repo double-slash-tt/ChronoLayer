@@ -16,10 +16,12 @@ namespace ChronoLayer
         /// </summary>
         public abstract float LocalScale { get; set; }
         /// <summary>
-        /// 
+        /// 合計のTimeScale
         /// </summary>
         public abstract float TimeScale { get; }
-
+        /// <summary>
+        /// 合計のDeltaTime
+        /// </summary>
         public abstract float DeltaTime { get; }
     }
 }
